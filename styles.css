@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+width: 300px;
+height: 120px;
+
+background-color: #FDF2E9;
+border-radius: 15px;
+padding-top: 1px;
+margin: 0 auto;
+text-align: center;
+  
+}
+html {
+  min-height: 100%;
+  background: url(http://archive.clubofthewaves.com/images/feature/surf-art-mayumi-tsubokura.jpg) no-repeat center center fixed;
+  background-size: cover;
+  
+  overflow: hidden;
+}
+.output {
+width: 100%;
+margin: 0 auto;
+text-align: center;
+font-size: 40px;
+
+	
+}
+
+.waterTemp {
+width: 100%;
+margin: 0 auto;
+text-align: center;
+font-size: 40px;
+padding-bottom: 20px;
+border-radius: 10px;
+
+}
+.h1back {
+	width: 75%;
+	opacity: 
+	background-color:
+	margin-top: 50px;
+	padding-top: 20px;
+	margin: 0 auto;
+  
+
+}
+
+.heading {
+color: black;
+}
+
+body {
+
+
+}
+
+h1 {
+text-align: center;
+}
+
+.buttonW {
+	vertical-align: middle;
+	border-radius: 15px;
+	background-color: #FDF2E9;
+	 cursor: pointer;
+}
+
+.buttonOut {
+	vertical-align: middle;
+	border-radius: 15px;
+	background-color: #FDF2E9;
+	 cursor: pointer;
+}
+	
+
+
+}
+
+form {
+	text-align: center;
+	padding-top: 0;
+}
+
