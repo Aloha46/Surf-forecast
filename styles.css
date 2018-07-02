@@ -1,31 +1,39 @@
 * {
 	box-sizing: border-box;
 }
-.container {
-width: 300px;
-height: 120px;
 
-background-color: #FDF2E9;
-border-radius: 15px;
-padding-top: 1px;
-margin: 0 auto;
-text-align: center;
-  
+.container {
+  width: 100%;
+  min-height: 120px;
+  max-width: 500px;
+
+  background-color: #FDF2E9;
+
+  padding-top: 1px;
+  margin: 0 auto;
+
+  border: 1px solid black;
+  border-radius: 4px;
+
+  text-align: center;
+  padding: 25px; 
 }
+
 html {
-  min-height: 100%;
+  height: 100%;
   background: url(http://archive.clubofthewaves.com/images/feature/surf-art-mayumi-tsubokura.jpg) no-repeat center center fixed;
   background-size: cover;
   
-  overflow: hidden;
+  font-family: 'Cabin';
+  background-blend-mode:overlay;
+  padding-bottom: 100px;
 }
+
 .output {
 width: 100%;
 margin: 0 auto;
 text-align: center;
 font-size: 40px;
-
-	
 }
 
 .waterTemp {
@@ -35,8 +43,8 @@ text-align: center;
 font-size: 40px;
 padding-bottom: 20px;
 border-radius: 10px;
-
 }
+
 .h1back {
 	width: 75%;
 	opacity: 
@@ -44,17 +52,10 @@ border-radius: 10px;
 	margin-top: 50px;
 	padding-top: 20px;
 	margin: 0 auto;
-  
-
 }
 
 .heading {
 color: black;
-}
-
-body {
-
-
 }
 
 h1 {
@@ -65,22 +66,83 @@ text-align: center;
 	vertical-align: middle;
 	border-radius: 15px;
 	background-color: #FDF2E9;
-	 cursor: pointer;
+	cursor: pointer; 
 }
 
 .buttonOut {
 	vertical-align: middle;
 	border-radius: 15px;
 	background-color: #FDF2E9;
-	 cursor: pointer;
+	cursor: pointer;
 }
 	
-
+.js-query {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.placeholder {
+  min-height: calc(100vh - 50px);
 
 }
 
 form {
 	text-align: center;
-	padding-top: 0;
+	padding-top: 0;  
 }
 
+.output :focus {
+  outline: 3px dashed red;
+}
+
+.waterTemp :focus {
+  outline: 3px dashed red;
+}
+
+footer {
+ height: 50px;
+ width: 100%;
+ line-height: 50px;
+}
+
+.footer-link {
+  color: white;
+}
+
+.URL {
+  color: white;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+    
+}
+
+input {
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  height: 25px;
+}
+
+button[type=submit] {
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  height: 25px;
+}
+
+label {
+  color: #4e4e4e;
+  vertical-align: middle;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 25px 0;
+}
+
+footer {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
