@@ -1,5 +1,9 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.hidden-element {
+  display: none;
 }
 
 .container {
@@ -46,12 +50,12 @@ border-radius: 10px;
 }
 
 .h1back {
-	width: 75%;
-	opacity: 
-	background-color:
-	margin-top: 50px;
-	padding-top: 20px;
-	margin: 0 auto;
+  width: 75%;
+  opacity: 
+  background-color:
+  margin-top: 50px;
+  padding-top: 20px;
+  margin: 0 auto;
 }
 
 .heading {
@@ -63,19 +67,19 @@ text-align: center;
 }
 
 .buttonW {
-	vertical-align: middle;
-	border-radius: 15px;
-	background-color: #FDF2E9;
-	cursor: pointer; 
+  vertical-align: middle;
+  border-radius: 15px;
+  background-color: #FDF2E9;
+  cursor: pointer; 
 }
 
 .buttonOut {
-	vertical-align: middle;
-	border-radius: 15px;
-	background-color: #FDF2E9;
-	cursor: pointer;
+  vertical-align: middle;
+  border-radius: 15px;
+  background-color: #FDF2E9;
+  cursor: pointer;
 }
-	
+  
 .js-query {
   width: 100%;
   max-width: 500px;
@@ -88,8 +92,8 @@ text-align: center;
 }
 
 form {
-	text-align: center;
-	padding-top: 0;  
+  text-align: center;
+  padding-top: 0;  
 }
 
 .output :focus {
@@ -104,6 +108,7 @@ footer {
  height: 50px;
  width: 100%;
  line-height: 50px;
+ 
 }
 
 .footer-link {
@@ -140,9 +145,13 @@ h1 {
   margin: 0;
   padding: 0 0 25px 0;
 }
+@media only screen and (min-width: 1024px) {
 
 footer {
  position: fixed;
  bottom: 0;
+ left: 0;
  width: 100%;
+}
+
 }
